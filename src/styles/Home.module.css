@@ -8,6 +8,11 @@
   height: 100vh;
 }
 
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
