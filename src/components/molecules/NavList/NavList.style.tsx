@@ -1,3 +1,4 @@
+import Colors from 'src/constans/color';
 import styled from 'styled-components';
 
 const NavbarListStyle = styled.ul`
@@ -19,6 +20,7 @@ const NavbarListStyle = styled.ul`
     }
     :hover {
       text-decoration: underline;
+      text-decoration-color: ${Colors.RED};
     }
   }
 `;
