@@ -4,6 +4,6 @@ const Container = styled.div`
   justify-content: space-between;
   margin-top: 1rem;
   position: absolute;
-  width: 100%;
+  width: inherit;
 `;
 export { Container };
