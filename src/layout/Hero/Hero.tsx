@@ -6,11 +6,15 @@ import { Container } from './Hero.style';
 const Hero = () => {
   return (
     <Container>
-      <Image src={profile} alt='profile' width={100} height={100} layout='fixed' />
-      <div>
-        <h1>
+      <div className='left'>
+        <div>
+          <Image src={profile} alt='profile' layout='responsive' />
+        </div>
+      </div>
+      <div className='right'>
+        <h3>
           Hi, I&apos;m <span>Rafael</span>
-        </h1>
+        </h3>
         <h2>Full Stack Developer</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sint architecto

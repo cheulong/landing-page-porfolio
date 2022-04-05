@@ -3,5 +3,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+  position: absolute;
+  width: 100%;
 `;
 export { Container };
