@@ -6,13 +6,24 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
 }
 
 .wrapper {
   width: 80%;
   margin: auto;
-}
+  position: relative;
 
+}
+.bg{
+  position: absolute;
+  top: 80vh;
+  left: -100px;
+  width: 30vw;
+  height: 120vh;
+  background-color:#181818 ;
+  z-index: -1;
+}
 .main {
   padding: 5rem 0;
   flex: 1;

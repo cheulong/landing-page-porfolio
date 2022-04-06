@@ -16,8 +16,8 @@ const Work = () => {
           KNOW MORE <FiArrowRight />
         </button>
       </Box>
-      <Box>
-        <HiOutlineClipboardList size={60} color={Colors.RED} />
+      <Box className='middle'>
+        <HiOutlineClipboardList size={60} color={Colors.WHITE} />
         <h3>Product Design</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, tenetur.</p>
         <button>

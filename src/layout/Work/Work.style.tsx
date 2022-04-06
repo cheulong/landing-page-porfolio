@@ -33,6 +33,15 @@ const Box = styled.div`
       color: ${Colors.RED_90};
     }
   }
+  &.middle {
+    background: ${Colors.RED};
+    button {
+      color: ${Colors.WHITE};
+      &:hover {
+        color: ${Colors.RED_90};
+      }
+    }
+  }
 `;
 
 export { Container, Box };
