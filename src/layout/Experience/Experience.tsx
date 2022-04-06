@@ -1,26 +1,32 @@
 import React from 'react';
+import { Container, ExpWrapper, DetailtWrapper } from './Experience.style';
 
 const Experience = () => {
   return (
-    <div>
-      <div>
-        <span>12</span> Years Experience
-      </div>
-      <div>
+    <Container>
+      <ExpWrapper>
+        <span>12</span>
+        <br /> Years Experience
+      </ExpWrapper>
+      <DetailtWrapper>
         <div>
-          <span>60+</span> Clients
+          <span>60+</span>
+          <br /> Clients
         </div>
         <div>
-          <span>4.8</span> Rates
+          <span>4.8</span>
+          <br /> Rates
         </div>
         <div>
-          <span>122+</span> Completed Projects
+          <span>122+</span> <br />
+          Completed Projects
         </div>
         <div>
-          <span>10</span> Achievements
+          <span>10</span>
+          <br /> Achievements
         </div>
-      </div>
-    </div>
+      </DetailtWrapper>
+    </Container>
   );
 };
 
