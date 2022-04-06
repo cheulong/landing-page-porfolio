@@ -5,7 +5,7 @@ import { NavbarListStyle } from './NavList.style';
 
 const NavList = ({ isFooter = false }: { isFooter?: boolean }) => {
   return (
-    <NavbarListStyle>
+    <NavbarListStyle isFooter={isFooter}>
       <li>
         <Link href='/'>
           <a>HOME</a>
